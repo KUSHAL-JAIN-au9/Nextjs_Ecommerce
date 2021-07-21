@@ -1,0 +1,41 @@
+{
+  "name": "nextjs-ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "type": "esnext",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^1.3.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "css-loader": "^5.1.3",
+    "file-loader": "^6.2.0",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.14",
+    "next": "10.0.1",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.15.5",
+    "react-redux": "^7.2.2",
+    "react-toastify": "^7.0.3",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.32.8",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "nodemon": "^2.0.7"
+  }
+}
